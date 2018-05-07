@@ -1,7 +1,6 @@
 import React from 'react';
+import AlbumList from './AlbumList';
 
-const App = () => (
-  <h1>Hello, hello</h1>
-);
+const App = () => <AlbumList />;
 
 export default App;
