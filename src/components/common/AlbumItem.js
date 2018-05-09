@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-class AlbumBox extends Component {
+class AlbumItem extends Component {
   render() {
     return <h1>Morning Glory</h1>;
   }
 }
 
-export default AlbumBox;
+export default AlbumItem;

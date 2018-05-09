@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import albums from '../api';
+import albums from '../../../api';
 
 class AlbumList extends Component {
   logAlbums = () => {
