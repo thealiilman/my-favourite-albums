@@ -18,8 +18,7 @@ const albums = [
     albumName: 'Definitely Maybe',
     albumArtwork: defMay,
     releaseDate: '29 August 1994',
-    singles: ['Supersonic', 'Shakermaker', 'Live Forever', 'Cigarettes & Alcohol', 'Rock \'n\' Roll Star'],
-    trackListing: [
+    tuneListing: [
       'Rock \'n\' Roll Star', 'Shakermaker', 'Live Forever',
       'Up In the Sky', 'Columbia', 'Supersonic',
       'Bring It On Down', 'Cigarettes & Alcohol', 'Digsy\'s Dinner',
@@ -31,8 +30,7 @@ const albums = [
     albumName: 'The Balcony',
     albumArtwork: theBalcony,
     releaseDate: '15 September 2014',
-    singles: ['Homesick', 'Rango', 'Kathleen', 'Fallout', 'Cocoon', 'Pacifier', 'Hourglass'],
-    trackListing: [
+    tuneListing: [
       'Homesick', 'Kathleen', 'Cocoon',
       'Fallout', 'Pacifier', 'Hourglass',
       'Business', '26', 'Rango',
@@ -44,8 +42,7 @@ const albums = [
     albumName: 'As You Were',
     albumArtwork: asYouWere,
     releaseDate: '6 October 2017',
-    singles: ['Wall of Glass', 'Chinatown', 'For What It\'s Worth', 'Greedy Soul', 'Come Back To Me'],
-    trackListing: [
+    tuneListing: [
       'Wall of Glass', 'Bold', 'Greedy Soul',
       'Paper Crown', 'For What It\'s Worth', 'When I\'m In Need',
       'You Better Run', 'I Get By', 'Chinatown',
@@ -57,8 +54,7 @@ const albums = [
     albumName: 'The Best of Keane',
     albumArtwork: bestOfKeane,
     releaseDate: '11 November 2013',
-    singles: ['Higher Than the Sun', 'Won\'t Be Broken'],
-    trackListing: [
+    tuneListing: [
       'Everybody\'s Changing', 'Somewhere Only We Know', 'Bend and Break',
       'Bedshaped', 'This Is the Last Time', 'Atlantic',
       'Is It Any Wonder?', 'Nothing In My Way', 'Hamburg Song',
@@ -69,11 +65,10 @@ const albums = [
   },
   {
     artist: 'Moddi',
-    albumName: 'Set the House On Fire',
+    albumName: 'Set the House on Fire',
     albumArtwork: stHouseOnFire,
     releaseDate: '8 March 2013',
-    singles: ['House By the Sea', 'Run To the Water', 'Silhouette'],
-    trackListing: [
+    tuneListing: [
       'Heim', 'House By the Sea', 'Let the Spider Run Alive',
       'Soon You\'ll Be Somebody Else', 'For An Unborn', 'The Architect',
       'Run To the Water', 'Silhouette', 'One Minute More',
@@ -85,15 +80,11 @@ const albums = [
     albumName: '(What\'s the Story) Morning Glory?',
     albumArtwork: morningGlory,
     releaseDate: '2 October 1995',
-    singles: [
-      'Some Might Say', 'Roll With It', 'Morning Glory',
-      'Wonderwall', 'Don\'t Look Back In Anger', 'Champagne Supernova',
-    ],
-    trackListing: [
+    tuneListing: [
       'Hello', 'Roll With It', 'Wonderwall',
-      'Don\'t Look Back In Anger', 'Hey Now', 'Untitled',
+      'Don\'t Look Back In Anger', 'Hey Now', 'The Swamp Song - Excerpt 1',
       'Some Might Say', 'Cast No Shadow', 'She\'s Electric',
-      'Morning Glory', 'Untitled', 'Champagne Supernova',
+      'Morning Glory', 'The Swamp Song - Excerpt 2', 'Champagne Supernova',
     ],
   },
   {
@@ -101,11 +92,7 @@ const albums = [
     albumName: 'For Crying Out Loud',
     albumArtwork: forCryingOutLoud,
     releaseDate: '5 May 2017',
-    singles: [
-      'You\'re In Love With A Psycho', 'Are You Looking For Action?',
-      'Ill Ray (The King)', 'Bless This Acid House', 'Comeback Kid',
-    ],
-    trackListing: [
+    tuneListing: [
       'Ill Ray (The King)', 'You\'re In Love With A Psycho', 'Twentyfourseven',
       'Good Fight', 'Wasted', 'Comeback Kid',
       'The Party Never Ends', 'Are You Looking For Action?', 'All Through the Night',
@@ -117,8 +104,7 @@ const albums = [
     albumName: 'My Head Is An Animal',
     albumArtwork: myHeadIsAnAnimal,
     releaseDate: '20 September 2011',
-    singles: ['Little Talks', 'Dirty Paws', 'Mountain Sound', 'King And Lionheart'],
-    trackListing: [
+    tuneListing: [
       'Dirty Paws', 'King And Lionheart', 'Mountain Sound',
       'Slow And Steady', 'From Finner', 'Little Talks',
       'Six Weeks', 'Love Love Love', 'Your Bones',
@@ -130,8 +116,7 @@ const albums = [
     albumName: 'Be Here Now',
     albumArtwork: beHereNow,
     releaseDate: '21 August 1997',
-    singles: ['D\'You Know What I Mean?', 'Stand By Me', 'All Around the World'],
-    trackListing: [
+    tuneListing: [
       'D\'You Know What I Mean?', 'My Big Mouth', 'Magic Pie',
       'Stand By Me', 'I Hope, I Think, I Know', 'The Girl In the Dirty Shirt',
       'Fade In-Out', 'Don\'t Go Away', 'Be Here Now',
@@ -143,8 +128,7 @@ const albums = [
     albumName: 'The Wave',
     albumArtwork: theWave,
     releaseDate: '14 October 2016',
-    singles: ['Quicksand', 'Still Waiting', 'Solid Gold', 'See It So Clear'],
-    trackListing: [
+    tuneListing: [
       'Still Waiting', 'Hardened Heart', 'The River',
       'Worthless Words', 'I Remember You', 'Bring the Rain',
       'Hold On To Our Love', 'Quicksand', 'Solid Gold',
@@ -156,12 +140,7 @@ const albums = [
     albumName: 'The Stone Roses',
     albumArtwork: theStoneRoses,
     releaseDate: '2 May 1989',
-    singles: [
-      'Elephant Stone', 'Made of Stone', 'She Bangs the Drums',
-      'Fools Gold', 'I Wanna Be Adored', 'Waterfall',
-      'I Am the Resurrection',
-    ],
-    trackListing: [
+    tuneListing: [
       'I Wanna Be Adored', 'She Bangs the Drums', 'Waterfall',
       'Don\'t Stop', 'Bye Bye Bad Man', 'Elizabeth My Dear',
       '(Song For My) Sugar Spun Sister', 'Made of Stone', 'Shoot You Down',
@@ -173,8 +152,7 @@ const albums = [
     albumName: 'Unsongs',
     albumArtwork: unsongs,
     releaseDate: '15 September 2016',
-    singles: [],
-    trackListing: [
+    tuneListing: [
       'June Fourth 1989: From the Shattered Pieces of A Stone It Begins',
       'A Matter of Habit', 'Punk Prayer', 'Open Letter',
       'Army Dreamers', 'The Our Worker', 'Parrot, Goat and Rooster',
@@ -187,8 +165,7 @@ const albums = [
     albumName: 'The Masterplan',
     albumArtwork: theMasterplan,
     releaseDate: '3 November 1998',
-    singles: ['Acquiesce'],
-    trackListing: [
+    tuneListing: [
       'Acquiesce', 'Underneath the Sky', 'Talk Tonight',
       'Going Nowhere', 'Fade Away', 'The Swamp Song',
       'I Am the Walrus', 'Listen Up', 'Rockin\' Chair',
